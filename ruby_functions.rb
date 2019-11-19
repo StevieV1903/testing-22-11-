@@ -56,5 +56,13 @@ when 10
 end
 
 def volume_of_cube(number)
-  return number * number * number
+  return (number * number * number)
+end
+
+def volume_of_sphere(n)
+return ((4/3.0) * 3.141592653 * (n * n * n))
+end
+
+def fahrenheit_to_celsius (f)
+  return ((f - 30) / 2)
 end
